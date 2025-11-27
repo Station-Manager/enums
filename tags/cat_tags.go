@@ -21,12 +21,12 @@ var AllCatStateTags = []struct {
 	Value  CatStateTag
 	TSName string
 }{
-	{Identity, Identity.String()},
-	{VfoAFreq, VfoAFreq.String()},
-	{VfoBFreq, VfoBFreq.String()},
-	{Split, Split.String()},
-	{Select, Select.String()},
-	{MainMode, MainMode.String()},
-	{SubMode, SubMode.String()},
-	{TxPwr, TxPwr.String()},
+	{Value: Identity, TSName: Identity.String()},
+	{Value: VfoAFreq, TSName: VfoAFreq.String()},
+	{Value: VfoBFreq, TSName: VfoBFreq.String()},
+	{Value: Split, TSName: Split.String()},
+	{Value: Select, TSName: Select.String()},
+	{Value: MainMode, TSName: MainMode.String()},
+	{Value: SubMode, TSName: SubMode.String()},
+	{Value: TxPwr, TSName: TxPwr.String()},
 }
