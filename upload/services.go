@@ -22,3 +22,7 @@ func (s OnlineService) Valid() bool {
 	_, ok := AllowedUploadServices[s]
 	return ok
 }
+
+func (s OnlineService) String() string {
+	return string(s)
+}
