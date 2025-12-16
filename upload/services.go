@@ -1,10 +1,12 @@
 package upload
 
+import "github.com/Station-Manager/types"
+
 type OnlineService string
 
 const (
 	OnlineServiceSM   OnlineService = "sm"
-	OnlineServiceQRZ  OnlineService = "qrz"
+	OnlineServiceQRZ  OnlineService = types.QrzForwardingServiceName
 	OnlineServiceLoTW OnlineService = "lotw"
 	OnlineServiceEQSL OnlineService = "eqsl"
 	OnlineServiceClub OnlineService = "clublog"
